@@ -9,8 +9,8 @@ const App = () => {
 
     return (
       <div className='app-container'>
-        <Btn/>
-      {data.map((item, index) => (
+        <Btn setTimeframe={setTimeframe}/>
+      {json.map((item, index) => (
         <CardEnfant
           key={index}
           title = {item.title}
