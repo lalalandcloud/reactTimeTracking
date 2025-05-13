@@ -8,7 +8,6 @@ function CardEnfant(props){
                 <h1>{props.hours}</h1>
                 <h6>{props.choix} - {props.totalHours}</h6>
             </div>
-
         </div>
     )
 }

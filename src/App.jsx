@@ -2,14 +2,14 @@ import './App.css'
 import CardEnfant from './components/cardEnfant'
 import React, { useEffect, useState} from 'react';
 import json from "../data.json";
+import Btn from './components/btn';
 
 const App = () => {
-    const [data, setData] = useState(null);
     const [timeframe, setTimeframe] = useState ("weekly")
 
     return (
       <div className='app-container'>
-      
+        <Btn/>
       {data.map((item, index) => (
         <CardEnfant
           key={index}
