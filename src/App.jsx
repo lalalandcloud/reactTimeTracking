@@ -18,9 +18,9 @@ const App = () => {
           <CardEnfant
             key={index}
             title = {item.title}
-            hours = {`${item.timeframes[timeframe].current} heures`}
+            hours = {`${item.timeframes[timeframe].current} hrs`}
             choix = {`Last ${timeframe.charAt(0).toUpperCase() + timeframe.slice(1)}`}
-            totalHours = {`${item.timeframes[timeframe].previous} heures`}
+            totalHours = {`${item.timeframes[timeframe].previous} hrs`}
           />
           ))}
 
