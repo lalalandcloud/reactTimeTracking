@@ -1,8 +1,20 @@
 import './cardEnfant.css'
+import imgExercice from '../assets/images/icon-exercise.svg'
+import imgPlay from "../assets/images/icon-play.svg";
+import imgCare from "../assets/images/icon-self-care.svg";
+import imgSocial from "../assets/images/icon-social.svg";
+import imgStudy from "../assets/images/icon-study.svg";
+import imgWork from "../assets/images/icon-work.svg";
+
 
 function CardEnfant(props){
+    const work = imgWork
+    
     return(
-        <div id='divCardTout'>
+        <div id='divCardTout' className={`card ${props.type}`}>
+            <div id='divImgType'>
+                <img src={props.type} alt="" />
+            </div>
             <div id='divCard'>
                 <div>
                     <h4>{props.title}</h4>

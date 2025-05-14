@@ -1,5 +1,4 @@
 #divCardTout{
-    background-color: blanchedalmond;
     width: 190px;
     height: 190px;
     align-content: end;
@@ -7,6 +6,13 @@
     border-radius: 15px;
 }
 
+#divImgType{
+    height: 50px;
+    width: 50px;
+}
+#divImgType>img{
+    width: 100%;
+}
 #divCard{
     background-color: rgb(29, 32, 75);
     width: 160px;
@@ -56,4 +62,22 @@
 }
 #divCard:hover{
     background-color: rgb(52, 57, 123);
+}
+.play{
+    background-color:hsl(195, 74%, 62%);
+}
+.work{
+    background-color: hsl(15, 100%, 70%);
+}
+.study{
+    background-color: hsl(348, 100%, 68%);
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+.social{
+    background-color: hsl(264, 64%, 52%);
+}
+.care{
+    background-color: hsl(43, 84%, 65%);
 }

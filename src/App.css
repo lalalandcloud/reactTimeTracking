@@ -1,6 +1,9 @@
 .app-container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
 }
 
 #divBtns{
@@ -10,5 +13,5 @@
 #divCards{
   display: flex;
   flex-wrap: wrap;
-  width: fit-content;
+  width: 65%;
 }

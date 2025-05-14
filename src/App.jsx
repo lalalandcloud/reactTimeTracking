@@ -18,6 +18,7 @@ const App = () => {
           <CardEnfant
             key={index}
             title = {item.title}
+            type = {item.title.toLowerCase()}
             hours = {`${item.timeframes[timeframe].current} hrs`}
             choix = {`Last ${timeframe.charAt(0).toUpperCase() + timeframe.slice(1)}`}
             totalHours = {`${item.timeframes[timeframe].previous} hrs`}
