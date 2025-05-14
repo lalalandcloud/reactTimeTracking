@@ -1,11 +1,12 @@
-.app-container{
+/* .app-container{
   display: ruby;
-}
+} */
 
-#divBtns{
+/* #divBtns{
 
-}
+} */
 
 #divCards{
   display: flex;
+  flex-wrap: wrap;
 }

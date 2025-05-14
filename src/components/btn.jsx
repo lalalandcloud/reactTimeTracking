@@ -12,10 +12,11 @@ function Btn({setTimeframe}) {
                     <p>Report for</p>
                     <h1>Jeremy Robson</h1>
                 </div>
-
-                <button onClick={() => setTimeframe("daily")}>Daily</button>
-                <button onClick={() => setTimeframe("weekly")}>Weekly</button>
-                <button onClick={() => setTimeframe("monthly")}>Monthly</button>
+                <div id="btnsss">
+                    <button onClick={() => setTimeframe("daily")}>Daily</button>
+                    <button onClick={() => setTimeframe("weekly")}>Weekly</button>
+                    <button onClick={() => setTimeframe("monthly")}>Monthly</button>
+                </div>
             </div>
     )
 }

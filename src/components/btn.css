@@ -9,15 +9,47 @@
     background-color: rgb(87, 70, 234);
     height: 65%;
     border-radius: 15px;
-
+    padding-left: 20px;
+    padding-top: 20px;
 
 }
 #divImgJ{
     width: 70px;
     height: 70px;
-
+    border: 3px solid white;
+    border-radius: 50px;
 }
 #divImgJ>img{
     height: 100%;
     width: 100%;
+}
+#divUser>p{
+    color: hsla(0, 0%, 100%, 0.700);
+    margin: 0;
+    margin-top: 20px;
+    font-size: 10pt;
+}
+#divUser>h1{
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+button{
+    border: none;
+    background-color: rgba(250, 235, 215, 0);
+    color: hsl(235, 45%, 61%);
+    width: 80px;
+    padding-left: 20px;
+    font-size: 12pt;
+    text-align: start;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+}
+#btnsss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
 }
