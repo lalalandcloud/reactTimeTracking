@@ -8,12 +8,18 @@ import imgWork from "../assets/images/icon-work.svg";
 
 
 function CardEnfant(props){
-    const work = imgWork
-    
+    const images = {
+    work : imgWork,
+    exercise : imgExercice,
+    play : imgPlay,
+    social : imgSocial,
+    study : imgStudy,
+    self : imgCare
+    }
     return(
         <div id='divCardTout' className={`card ${props.type}`}>
             <div id='divImgType'>
-                <img src={props.type} alt="" />
+                <img src={images[props.type]} alt="" />
             </div>
             <div id='divCard'>
                 <div>
