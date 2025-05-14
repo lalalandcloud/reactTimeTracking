@@ -1,6 +1,8 @@
-/* .app-container{
-  display: ruby;
-} */
+.app-container{
+  display: flex;
+  width: 80%;
+  justify-self: center;
+}
 
 /* #divBtns{
 

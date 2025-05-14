@@ -2,7 +2,9 @@
     background-color: rgb(29, 32, 75);
     border-radius: 15px;
     width: 220px;
-    height: 450px;
+    height: 459px;
+    margin: 9px;
+
 }
 
 #divUser{
@@ -11,7 +13,9 @@
     border-radius: 15px;
     padding-left: 20px;
     padding-top: 20px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #divImgJ{
     width: 70px;
@@ -26,7 +30,7 @@
 #divUser>p{
     color: hsla(0, 0%, 100%, 0.700);
     margin: 0;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 10pt;
 }
 #divUser>h1{
