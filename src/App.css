@@ -4,11 +4,11 @@
 }
 
 #divBtns{
-  width: 25%;
+  width: auto;
 }
 
 #divCards{
   display: flex;
   flex-wrap: wrap;
-  width: 62%;
+  width: fit-content;
 }
