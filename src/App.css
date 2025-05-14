@@ -1,14 +1,14 @@
 .app-container{
   display: flex;
-  width: 80%;
-  justify-self: center;
+  justify-content: center;
 }
 
-/* #divBtns{
-
-} */
+#divBtns{
+  width: 25%;
+}
 
 #divCards{
   display: flex;
   flex-wrap: wrap;
+  width: 62%;
 }
