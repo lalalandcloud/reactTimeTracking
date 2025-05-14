@@ -1,0 +1,17 @@
+.timeframe-buttons{
+    background-color: rgb(195, 102, 102);
+}
+
+#divUser{
+    background-color: rgb(182, 175, 226);
+    height: 65%;
+}
+#divImgJ{
+    width: 70px;
+    height: 70px;
+
+}
+#divImgJ>img{
+    height: 100%;
+    width: 100%;
+}

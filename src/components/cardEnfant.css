@@ -1,8 +1,10 @@
 #divCardTout{
     background-color: blanchedalmond;
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
     align-content: end;
+    margin: 9px;
+    border-radius: 15px;
 }
 
 #divCard{
@@ -10,4 +12,5 @@
     width: 100%;
     height: 80%;
     color: white;
+    border-radius: 15px;
 }

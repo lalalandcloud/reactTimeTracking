@@ -9,18 +9,22 @@ const App = () => {
 
     return (
       <div className='app-container'>
-        <Btn setTimeframe={setTimeframe}/>
-      {json.map((item, index) => (
-        <CardEnfant
-          key={index}
-          title = {item.title}
-          hours = {`${item.timeframes[timeframe].current} heures`}
-          choix = {`Last ${timeframe.charAt(0).toUpperCase() + timeframe.slice(1)}`}
-          totalHours = {`${item.timeframes[timeframe].previous} heures`}
-          
-        />
-        ))}
+        <div id='divBtns'>
+          <Btn setTimeframe={setTimeframe}/>
 
+        </div>
+        <div id='divCards'>
+          {json.map((item, index) => (
+          <CardEnfant
+            key={index}
+            title = {item.title}
+            hours = {`${item.timeframes[timeframe].current} heures`}
+            choix = {`Last ${timeframe.charAt(0).toUpperCase() + timeframe.slice(1)}`}
+            totalHours = {`${item.timeframes[timeframe].previous} heures`}
+          />
+          ))}
+
+        </div>
       </div>
       )
 }
