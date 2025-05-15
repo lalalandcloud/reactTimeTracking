@@ -6,6 +6,10 @@ import Btn from './components/btn';
 
 const App = () => {
     const [timeframe, setTimeframe] = useState ("weekly")
+    const normalizeTitle = (title) => {
+      return title.toLowerCase().replace(" ", "");
+    };
+    
 
     return (
       <div className='app-container'>
@@ -18,7 +22,7 @@ const App = () => {
           <CardEnfant
             key={index}
             title = {item.title}
-            type = {item.title.toLowerCase()}
+            type = {normalizeTitle(item.title)}
             hours = {`${item.timeframes[timeframe].current} hrs`}
             choix = {`Last ${timeframe.charAt(0).toUpperCase() + timeframe.slice(1)}`}
             totalHours = {`${item.timeframes[timeframe].previous} hrs`}

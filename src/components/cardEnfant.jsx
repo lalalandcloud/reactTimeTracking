@@ -14,7 +14,7 @@ function CardEnfant(props){
     play : imgPlay,
     social : imgSocial,
     study : imgStudy,
-    self : imgCare
+    selfcare : imgCare
     }
     return(
         <div id='divCardTout' className={`card ${props.type}`}>

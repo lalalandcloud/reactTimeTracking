@@ -8,7 +8,7 @@
 
 #divImgType{
     height: 40px;
-    width: 70px;
+    width: 60px;
     transform: translateX(110px);
     overflow: hidden;
 }
@@ -80,6 +80,6 @@
 .social{
     background-color: hsl(264, 64%, 52%);
 }
-.care{
+.selfcare{
     background-color: hsl(43, 84%, 65%);
 }
