@@ -62,3 +62,36 @@ button:hover{
     justify-content: space-evenly;
     height: 30%;
 }
+@media (max-width: 682px){
+    .timeframe-buttons{
+        width: 80%;
+        height: 200px;
+    }
+    #divUser{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 10px;
+    }   
+    #divUser h1{
+        font-size: 18pt;
+        width: 80%;
+        margin: 10px;
+        text-align: end;
+    }
+    #divUser p{
+        width: 50%;
+        text-align: end;
+        margin: 10px;
+    }
+    #btnsss{
+        flex-direction: row;        
+        height: 50px;
+    }
+    #btnsss>button{
+        padding: 0;
+        width: auto;
+        align-self: center;
+    }
+}

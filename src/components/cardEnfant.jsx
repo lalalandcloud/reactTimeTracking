@@ -22,12 +22,14 @@ function CardEnfant(props){
                 <img src={images[props.type]} alt="" />
             </div>
             <div id='divCard'>
-                <div>
+                <div id='divCard1'>
                     <h4>{props.title}</h4>
                     <p>...</p>
                 </div>
-                <h1>{props.hours}</h1>
-                <h6>{props.choix} - {props.totalHours}</h6>
+                <div id='divHrs'>
+                    <h1>{props.hours}</h1>
+                    <h6>{props.choix} - {props.totalHours}</h6>
+                </div>
             </div>
         </div>
     )
