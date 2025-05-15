@@ -1,7 +1,102 @@
 #divCardTout{
-    background-color: blanchedalmond;
+    width: 190px;
+    height: 170px;
+    align-content: end;
+    margin: 9px;
+    border-radius: 15px;
 }
 
+#divImgType{
+    height: 40px;
+    width: 60px;
+    transform: translateX(110px);
+    overflow: hidden;
+}
+#divImgType>img{
+    width: 100%;
+}
 #divCard{
-    background-color: aqua;
+    background-color: rgb(29, 32, 75);
+    width: 160px;
+    height: 65%;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#divCard1{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+#divCard>div>p{
+    font-weight: 100;
+    cursor: pointer;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 12pt;
+    margin: 0;
+
+}
+#divCard>div>p:hover{
+    font-size: 15pt;
+    color: white;
+}
+#divCard>div>h4{
+    font-weight: 100;
+    margin: 0;
+}
+
+#divCard>div>h1{
+    font-weight: 100;
+    margin: 0;
+    text-align: start;
+
+}
+#divCard>div>h6{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-weight: 100;
+    font-size: 10pt;
+    margin: 0;
+}
+#divCard:hover{
+    background-color: rgb(52, 57, 123);
+}
+.play{
+    background-color:hsl(195, 74%, 62%);
+}
+.work{
+    background-color: hsl(15, 100%, 70%);
+}
+.study{
+    background-color: hsl(348, 100%, 68%);
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+.social{
+    background-color: hsl(264, 64%, 52%);
+}
+.selfcare{
+    background-color: hsl(43, 84%, 65%);
+}
+@media (max-width: 682px){
+    #divCardTout{width: 80%;
+    }
+    #divCard{
+        width: 90%;
+    }
+    #divImgType{
+        transform: translateX(200px);
+    }
+    #divHrs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
 }

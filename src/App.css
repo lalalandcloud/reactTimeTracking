@@ -1,0 +1,29 @@
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+#divBtns{
+  width: auto;
+}
+
+#divCards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  gap: 10px;
+}
+@media (max-width: 682px){
+  #divBtns{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  #divCards{
+    justify-content: center;
+    width: 80%;
+  }
+}
