@@ -1,14 +1,16 @@
 #divCardTout{
     width: 190px;
-    height: 190px;
+    height: 170px;
     align-content: end;
     margin: 9px;
     border-radius: 15px;
 }
 
 #divImgType{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 70px;
+    transform: translateX(110px);
+    overflow: hidden;
 }
 #divImgType>img{
     width: 100%;
