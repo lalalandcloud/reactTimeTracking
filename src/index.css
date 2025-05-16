@@ -12,5 +12,8 @@ body {
   background-color: rgb(13, 19, 35);
   justify-content: center;
   height: 99vh;
-  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 682px){
+
 }

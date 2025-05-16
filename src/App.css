@@ -5,6 +5,13 @@
   align-self: center;
   flex-wrap: wrap;
 }
+#root{
+  /* padding-right: 5vw;
+  padding-left: 5vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh; */
+  width: 99vw;
+}
 
 #divBtns{
   width: auto;
