@@ -11,4 +11,6 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: rgb(13, 19, 35);
   justify-content: center;
+  height: 99vh;
+  align-items: center;
 }

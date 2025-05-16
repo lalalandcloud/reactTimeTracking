@@ -85,13 +85,16 @@
     background-color: hsl(43, 84%, 65%);
 }
 @media (max-width: 682px){
-    #divCardTout{width: 80%;
-    }
-    #divCard{
+    #divCardTout{
         width: 90%;
     }
+    #divCard{
+        width: auto;
+    }
     #divImgType{
-        transform: translateX(200px);
+        justify-self: anchor-center;
+        margin-right: 9px;
+
     }
     #divHrs{
         display: flex;
